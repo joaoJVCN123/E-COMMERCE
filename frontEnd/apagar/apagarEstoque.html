@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <script src="" defer></script>
+    <title>Cacique Jogos</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="../inicio.html">Cacique Jogos</a>
+            </div>
+            <div class="menu">
+                <!-- Menu "Cliente" -->
+                <div class="menu-item">
+                    <a>Cliente</a>
+                    <ul class="dropdown">
+                        <li><a href="../cadastrar/cadastrarCliente.html">Cadastrar Cliente</a></li>
+                        <li><a href="../consultar/consultarCliente.html">Consultar Cliente</a></li>
+                        <li><a href="../listar/listarCliente.html">Listar Cliente</a></li>
+                        <li><a href="apagarCliente.html">Apagar Cliente</a></li>
+                    </ul>
+                </div>
+    
+                <!-- Menu "Entrega" -->
+                <div class="menu-item">
+                    <a>Entrega</a>
+                    <ul class="dropdown">
+                        <li><a href="../cadastrar/cadastrarEntrega.html">Cadastrar Entrega</a></li>
+                        <li><a href="../consultar/consultarEntrega.html">Consultar Entrega</a></li>
+                        <li><a href="../listar/listarEntrega.html">Listar Entrega</a></li>
+                        <li><a href="apagarEntrega.html">Apagar Entrega</a></li>
+                    </ul>
+                </div>
+    
+                <!-- Menu "Estoque" -->
+                <div class="menu-item">
+                    <a>Estoque</a>
+                    <ul class="dropdown">
+                        <li><a href="../cadastrar/cadastrarEstoque.html">Cadastrar Estoque</a></li>
+                        <li><a href="../consultar/consultarEstoque.html">Consultar Estoque</a></li>
+                        <li><a href="../listar/listarEstoque.html">Listar Estoque</a></li> 
+                        <li><a href="apagarEstoque.html">Apagar Estoque</a></li> 
+                    </ul>
+                </div>
+    
+                <!-- Menu "Fabricante" -->
+                <div class="menu-item">
+                    <a>Fabricante</a>
+                    <ul class="dropdown">
+                        <li><a href="../cadastrar/cadastrarFabricante.html">Cadastrar Fabricante</a></li>
+                        <li><a href="../consultar/consultarFabricante.html">Consultar Fabricante</a></li>
+                        <li><a href="../listar/listarFabricante.html">Listar Fabricante</a></li>
+                        <li><a href="apagarFabricante.html">Apagar Fabricante</a></li>
+                    </ul>
+                </div>
+    
+                <!-- Menu "Pagamento" -->
+                <div class="menu-item">
+                    <a>Pagamento</a>
+                    <ul class="dropdown">
+                        <li><a href="../cadastrar/cadastrarPagamento.html">Cadastrar Pagamento</a></li>
+                        <li><a href="../consultar/consultarPagamento.html">Consultar Pagamento</a></li>
+                        <li><a href="../listar/listarPagamento.html">Listar Pagamento</a></li>
+                        <li><a href="apagarPagamento.html">Apagar Pagamento</a></li>
+                    </ul>
+                </div>
+    
+                <!-- Menu "Pedido" -->
+                <div class="menu-item">
+                    <a>Pedido</a>
+                    <ul class="dropdown">
+                        <li><a href="../cadastrar/cadastrarPedido.html">Cadastrar Pedido</a></li>
+                        <li><a href="../consultar/consultarPedido.html">Consultar Pedido</a></li>
+                        <li><a href="../listar/listarPedido.html">Listar Pedido</a></li>
+                        <li><a href="apagarPedido.html">Apagar Pedido</a></li>
+                    </ul>
+                </div>
+    
+                <!-- Menu "Produto" -->
+                <div class="menu-item">
+                    <a>Produto</a>
+                    <ul class="dropdown">
+                        <li><a href="../cadastrar/cadastrarProduto.html">Cadastrar Produto</a></li>
+                        <li><a href="../consultar/consultarProduto.html">Consultar Produto</a></li>
+                        <li><a href="../listar/listarProduto.html">Listar Produto</a></li>
+                        <li><a href="apagarProduto.html">Apagar Produto</a></li>
+                    </ul>
+                </div>
+    
+                <!-- Menu "Reabastecimento" -->
+                <div class="menu-item">
+                    <a>Reabastecimento</a>
+                    <ul class="dropdown">
+                        <li><a href="../cadastrar/cadastrarReabastecimento.html">Cadastrar Reabastecimento</a></li>
+                        <li><a href="../consultar/consultarReabastecimento.html">Consultar Reabastecimento</a></li>
+                        <li><a href="../listar/listarReabastecimento.html">Listar Reabastecimento</a></li>
+                        <li><a href="apagarReabastecimento.html">Apagar Reabastecimento</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+    <main>
+    <main>
+        <h1>Apagar Estoque</h1>
+        <br><br>
+        <div class="cont">
+            <label for="codEstoque">Código Estoque: </label><br>
+            <input type="text" name="codEstoque" id="codEstoque">
+        </div>
+        <div class="centralizar">
+            <button id="listar">Listar</button><br><br>
+            <div id="res"></div>
+        </div>
+    </main>
+</body>
+</html>
